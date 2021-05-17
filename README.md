@@ -137,7 +137,9 @@ X-Application-Token: uuid-v4-app-token
 {
   "data": null
   "errors": [
-    {"message": "...error message..."
+    {
+      "message": "...error message..."
+    }
   ]
 }
 ```
