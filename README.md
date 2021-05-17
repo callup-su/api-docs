@@ -135,7 +135,7 @@ X-Application-Token: uuid-v4-app-token
 или
 ```http
 {
-  "data": null
+  "data": null,
   "errors": [
     {
       "message": "...error message..."
