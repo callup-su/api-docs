@@ -113,6 +113,7 @@ X-Application-Token: uuid-v4-app-token
 
 Аутентификация [ /v1/auth ]
 ===
+Для проверки кода аутентификации необходимо отправить GET запрос на /v1/auth/<uiid заказа>/<кода аутентификации>:
 ```http request
 GET /v1/auth/{order_id}/{order_code}
 HOST <адрес сервиса CallUp>
